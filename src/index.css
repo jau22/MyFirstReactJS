@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.form{
+  padding: 16px;
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(101, 101, 101);
+}
+
+input{
+  margin-bottom: 8px;
+}
+
+.container{
+  margin:auto;
+  width:80%;
+  padding: 40px;
+}
+
+.navigationBar{
+  overflow: hidden;
+  background-color: rgb(101, 101, 101);
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+
+.navigationBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.main{
+  margin-top: 80px;
+}
